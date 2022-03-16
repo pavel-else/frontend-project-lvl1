@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install
-        run: make install
+        run: make wip
       - name: lint
         run: make wip
