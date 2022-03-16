@@ -1,4 +1,4 @@
-install: # Установить зависимости
+install:
 	npm ci
 
 brain-games: 
