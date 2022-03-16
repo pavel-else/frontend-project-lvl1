@@ -1,8 +1,10 @@
-name: hello-world
+name: Node CI
+
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: make lint
+      - run: make install
+      - run: make lint
