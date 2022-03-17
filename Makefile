@@ -10,5 +10,3 @@ publish:
 lint:
 	npx eslint .
 
-wip:
-	echo "qwerqwer"

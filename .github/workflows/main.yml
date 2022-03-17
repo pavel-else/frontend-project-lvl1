@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v1
 
       - name: install
-        run: make wip
+        run: make lint
 
       - name: lint
-        run: make wip
+        run: make lint
