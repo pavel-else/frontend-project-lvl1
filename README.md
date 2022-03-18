@@ -13,3 +13,7 @@ make install
 ```sh
 make test
 ```
+
+### Ascinema
+
+<a href="https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo" target="_blank"><img src="https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo.svg" /></a>
