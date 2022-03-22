@@ -16,4 +16,5 @@ make test
 
 ### Ascinema
 
-<a href="https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo" target="_blank"><img src="https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo.svg" /></a>
+https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo (brain-even)
+https://asciinema.org/a/sVS4AK1hFNTJ71Flx98BgqbCF (brain-calc)
