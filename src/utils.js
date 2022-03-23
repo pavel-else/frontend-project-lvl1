@@ -1,4 +1,4 @@
-export const getRandom = (from = 0, to = 100) => Math.round(Math.random() * to) + from;
+export const getRandom = (from = 0, to = 100) => Math.round(Math.random() * (to - from)) + from;
 
 export const getGcd = (num1, num2) => {
   const min = Math.min(num1, num2);
@@ -11,6 +11,17 @@ export const getGcd = (num1, num2) => {
   }
 
   return 1;
+};
+
+export const getProgression = (start = 0, length = 5, increment = 1) => {
+  const progression = [];
+
+  for (let i = 0, el = start; i < length; i += 1) {
+    progression.push(el);
+    el += increment;
+  }
+
+  return progression;
 };
 
 export default { getRandom, getGcd };

@@ -29,10 +29,8 @@ export const game = new Game({
 
     const answer = readlineSync.question('Your answer: ');
 
-    const result = expected === Number(answer);
-
     return {
-      result,
+      result: expected === Number(answer),
       answer,
       correctAnswer: expected,
     };

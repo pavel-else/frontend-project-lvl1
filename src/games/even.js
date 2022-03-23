@@ -13,12 +13,12 @@ export const game = new Game({
 
     const isEvenNum = num % 2 === 0;
 
-    const result = (isEvenNum && answer === 'yes') || (!isEvenNum && answer === 'no');
+    const expected = isEvenNum ? 'yes' : 'no';
 
     return {
-      result,
+      result: expected === answer,
       answer,
-      correctAnswer: isEvenNum ? 'yes' : 'no',
+      correctAnswer: expected,
     };
   },
 });

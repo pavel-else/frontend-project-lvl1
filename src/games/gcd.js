@@ -14,10 +14,8 @@ export const game = new Game({
 
     const expected = getGcd(num1, num2);
 
-    const result = expected === Number(answer);
-
     return {
-      result,
+      result: expected === Number(answer),
       answer,
       correctAnswer: expected,
     };
