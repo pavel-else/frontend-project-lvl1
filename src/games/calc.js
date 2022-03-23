@@ -5,7 +5,7 @@ import Game from '../game.js';
 export const game = new Game({
   title: 'What is the result of the expression?',
   gameFlow: () => {
-    const num1 = getRandom();
+    const num1 = getRandom(10, 100);
     const num2 = getRandom(1, 10);
 
     const options = {

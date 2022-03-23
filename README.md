@@ -16,5 +16,6 @@ make test
 
 ### Ascinema
 
+https://asciinema.org/a/rbPPWxoXZNZuzrpSMrBjJUvmP(brain-gcd)
 https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo (brain-even)
 https://asciinema.org/a/sVS4AK1hFNTJ71Flx98BgqbCF (brain-calc)
