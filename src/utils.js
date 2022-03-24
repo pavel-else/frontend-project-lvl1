@@ -24,4 +24,18 @@ export const getProgression = (start = 0, length = 5, increment = 1) => {
   return progression;
 };
 
-export default { getRandom, getGcd };
+export const isPrime = (number) => {
+  if (number < 2) {
+    return false;
+  }
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+  return true;
+};
+
+export default {
+  getRandom, getGcd, getProgression, isPrime,
+};

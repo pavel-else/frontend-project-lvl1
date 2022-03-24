@@ -16,6 +16,7 @@ make test
 
 ### Ascinema
 
+https://asciinema.org/a/FnFh6XtfWGgJhnW0PHV6z2yWK (brain-prime)
 https://asciinema.org/a/RDUWGzSrxZ6NG69yXiJrMYKRD (brain-progression)
 https://asciinema.org/a/rbPPWxoXZNZuzrpSMrBjJUvmP (brain-gcd)
 https://asciinema.org/a/ez303ipqqclwWqoxysZIAHgfo (brain-even)
