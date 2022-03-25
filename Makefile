@@ -10,3 +10,6 @@ publish:
 lint:
 	npx eslint .
 
+lint2:
+	npx eslint --no-eslintrc --config .eslintrc.yml .
+
