@@ -7,8 +7,8 @@ export const game = new Game({
   gameFlow: () => {
     const start = getRandom(0, 30);
     const increment = getRandom(-10, 10);
-    const length = getRandom(5, 20);
-    const index = getRandom(0, length);
+    const length = 5;
+    const index = getRandom(0, length - 1);
 
     const progression = getProgression(start, length, increment);
     const progressionView = [...progression.slice(0, index), '..', ...progression.slice(index + 1, progression.length)];
