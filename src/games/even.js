@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 import { getRandom } from '../utils.js';
-import Game from '../game.js';
 
-export const game = new Game({
+export const game = {
   title: 'Answer "yes" if the number is even, otherwise answer "no".',
   gameFlow: () => {
     const num = getRandom();
@@ -21,6 +20,6 @@ export const game = new Game({
       correctAnswer: expected,
     };
   },
-});
+};
 
 export default { game };

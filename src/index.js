@@ -10,7 +10,7 @@ export const runGame = (game) => {
   let rightAnswerCount = 0;
 
   while (rightAnswerCount !== 3) {
-    const { result, answer, correctAnswer } = game.run();
+    const { result, answer, correctAnswer } = game.gameFlow();
 
     if (result) {
       console.log('Correct!');

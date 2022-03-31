@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 import { getRandom, getProgression } from '../utils.js';
-import Game from '../game.js';
 
-export const game = new Game({
+export const game = {
   title: 'What number is missing in the progression?',
   gameFlow: () => {
     const start = getRandom(0, 30);
@@ -24,6 +23,6 @@ export const game = new Game({
       correctAnswer: expected,
     };
   },
-});
+};
 
 export default { game };

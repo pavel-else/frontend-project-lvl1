@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 import { getRandom, getGcd } from '../utils.js';
-import Game from '../game.js';
 
-export const game = new Game({
+export const game = {
   title: 'Find the greatest common divisor of given numbers.',
   gameFlow: () => {
     const num1 = getRandom(1, 100);
@@ -20,6 +19,6 @@ export const game = new Game({
       correctAnswer: expected,
     };
   },
-});
+};
 
 export default { game };

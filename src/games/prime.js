@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 import { getRandom, isPrime } from '../utils.js';
-import Game from '../game.js';
 
-export const game = new Game({
+export const game = {
   title: 'Answer "yes" if given number is prime. Otherwise answer "no".',
   gameFlow: () => {
     const num = getRandom(1, 100);
@@ -19,6 +18,6 @@ export const game = new Game({
       correctAnswer: expected,
     };
   },
-});
+};
 
 export default { game };
